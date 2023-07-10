@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 10px;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: 3rem;
+    margin: 2rem;
+    font-size: 1.25rem;
+    padding: 1rem .5rem;
+    transition: all .05s ease;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
